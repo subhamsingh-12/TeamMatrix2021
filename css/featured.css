@@ -1,0 +1,162 @@
+.greenHeader {
+    background-color: #21AC39;
+    top: 0px;
+    left: 0px;
+    width: 1394px;
+    height: 188px;
+}
+
+.blackContents {
+    background-color: black;
+    height: 100%;
+}
+
+.imagePlayPosition {
+    max-width: 4em;
+    transform: translateY(0.5em)
+}
+
+.live {
+    background-color: #F31F28;
+    width: 60px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: antiquewhite;
+    padding-left: 12px;
+    border-radius: 5px;
+    border: 3px;
+    padding-top: 2px;
+    margin-top: 13px;
+    margin-left: 40px
+}
+
+.featuredText {
+    top: 5%;
+    left: 10%;
+    width: 90%;
+    height: 16%;
+    font-size: 110px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #9BFFAC;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.likeIcon {
+    padding-left: 10px
+}
+
+.socialMediaIcon {
+    margin-left: 72px;
+    margin-top: 15px
+}
+
+.socialMediaIcon1 {
+    margin-left: 20px;
+    margin-top: 15px
+}
+
+@media only screen and (max-width: 950px) {
+    .featuredText {
+        /*    top: 5%;
+    left: 1%;*/
+        width: 90%;
+        height: 16%;
+        font-size: 60px;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #9BFFAC;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    .customTabText {
+        /* margin-top: 20px !important; */
+        font-size: 20px !important;
+        text-align: left;
+        color: white;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-decoration: none !important;
+    }
+    .customNumber {
+        display: none;
+    }
+    .resize {
+        margin-top: auto;
+    }
+    .imagePlayPosition {
+        display: none !important;
+    }
+    .customCard {
+        left: 2px !important;
+        width: 80%;
+        height: auto;
+    }
+    .blackContents {
+        background-color: black;
+        height: auto;
+    }
+}
+
+.customCard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: auto;
+    border-radius: 25px !important;
+    border: 2px solid #21AC39 !important
+}
+
+.test {
+    border-radius: 25px !important;
+    border: 2px !important
+}
+
+.detailedText {
+    color: black;
+}
+
+.customButton {
+    /* margin-left: 24px; */
+    width: 150px;
+    height: 44px;
+    background-color: #21AC39;
+    color: white
+}
+
+.upcomingTabs {
+    margin-left: 120px;
+}
+
+.sectionBox {
+    font-size: 23px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.customNumber {
+    height: 101px;
+    width: 27px;
+    color: #737373;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bolder
+}
+
+.customTabText {
+    margin-top: 35px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.customPlay {
+    width: 58px;
+    height: 67px;
+    margin-left: 20px;
+}

@@ -1,0 +1,10 @@
+/* Additional code so auto generated Sass files don't get overrwridden */
+
+#welcome-div {
+	min-height: 100vh; /* Sets the height of the intro hero image to the size of the viewport */
+	width: 100vw;
+}
+
+.matrix-intro-text {
+	color: white;
+}
